@@ -155,13 +155,46 @@
 
     <script>
         let dataPenduduk = [
-            { no: 1, nama: "ENDI SUSANTO", tglLahir: "08-02-1964", noSk: "045", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087862952268" },
-            { no: 2, nama: "SOLEH S", tglLahir: "15-04-1971", noSk: "044", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081321574356" },
-            { no: 3, nama: "ADE IRAWAN", tglLahir: "26-10-1986", noSk: "028", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085861718699" },
-            { no: 4, nama: "ROSUL HADIYANTO", tglLahir: "22-08-1975", noSk: "029", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081522793022" },
-            { no: 5, nama: "ABDUROHIM", tglLahir: "09-11-1984", noSk: "030", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "082126453501" },
-            { no: 38, nama: "SARNIJAH", tglLahir: "20-08-1973", noSk: "032", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087817133110" }
-        ];
+{ no: 1, nama: "ENDI SUSANTO", jabatan: "Ketua RW 001", tglLahir: "08-02-1964", noSk: "045", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087862952268" },
+{ no: 2, nama: "SOLEH S", jabatan: "Ketua RW 002", tglLahir: "15-04-1971", noSk: "044", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081321574356" },
+{ no: 3, nama: "ADE IRAWAN", jabatan: "Ketua RW 003", tglLahir: "26-10-1986", noSk: "028", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085861718699" },
+{ no: 4, nama: "ROSUL HADIYANTO", jabatan: "Ketua RW 004", tglLahir: "22-08-1975", noSk: "029", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081522793022" },
+{ no: 5, nama: "ABDUROHIM", jabatan: "Ketua RW 005", tglLahir: "09-11-1984", noSk: "030", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "082126453501" },
+{ no: 6, nama: "RATNA", jabatan: "Ketua RW 006", tglLahir: "01-03-1977", noSk: "027", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081904021042" },
+{ no: 7, nama: "RASUDI", jabatan: "Ketua RW 007", tglLahir: "11-08-1973", noSk: "026", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087852408999" },
+{ no: 8, nama: "TARUDIN", jabatan: "Ketua RW 008", tglLahir: "12-09-1961", noSk: "043", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087757403211" },
+
+{ no: 9, nama: "RASTIMAN", jabatan: "Ketua RT 001", tglLahir: "03-04-1979", noSk: "041", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087887346997" },
+{ no: 10, nama: "CARDAKA", jabatan: "Ketua RT 002", tglLahir: "04-05-1984", noSk: "047", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085966508839" },
+{ no: 11, nama: "HASAN", jabatan: "Ketua RT 003", tglLahir: "20-12-1972", noSk: "042", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085942112378" },
+{ no: 12, nama: "TARKUDI", jabatan: "Ketua RT 004", tglLahir: "15-02-1971", noSk: "036", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085797901475" },
+{ no: 13, nama: "SAKUDIN", jabatan: "Ketua RT 005", tglLahir: "04-03-1980", noSk: "035", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085798070713" },
+{ no: 14, nama: "RASWADI", jabatan: "Ketua RT 006", tglLahir: "15-01-1971", noSk: "038", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087757240470" },
+{ no: 15, nama: "CARITA", jabatan: "Ketua RT 007", tglLahir: "10-06-1971", noSk: "034", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "083898182549" },
+{ no: 16, nama: "E. KUSNADI", jabatan: "Ketua RT 008", tglLahir: "03-07-1977", noSk: "037", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087836134115" },
+{ no: 17, nama: "CASITA", jabatan: "Ketua RT 009", tglLahir: "10-11-1970", noSk: "014", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "082119896080" },
+{ no: 18, nama: "TADI", jabatan: "Ketua RT 010", tglLahir: "22-04-1972", noSk: "012", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081313643082" },
+{ no: 19, nama: "TADI", jabatan: "Ketua RT 011", tglLahir: "12-08-1982", noSk: "013", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085724304717" },
+{ no: 20, nama: "SURYADI", jabatan: "Ketua RT 012", tglLahir: "10-03-1979", noSk: "031", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081818473784" },
+{ no: 21, nama: "NONO KARSONO", jabatan: "Ketua RT 013", tglLahir: "24-11-1985", noSk: "009", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "08977114793" },
+{ no: 22, nama: "ABDUL KHOLIL", jabatan: "Ketua RT 014", tglLahir: "20-03-1981", noSk: "011", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "0895326253275" },
+{ no: 23, nama: "NASAEDI", jabatan: "Ketua RT 015", tglLahir: "15-02-1985", noSk: "010", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085221908019" },
+{ no: 24, nama: "DASUKI", jabatan: "Ketua RT 016", tglLahir: "04-03-1979", noSk: "022", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "08989707470" },
+{ no: 25, nama: "RIYANTO", jabatan: "Ketua RT 017", tglLahir: "08-08-1994", noSk: "021", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081219856798" },
+{ no: 26, nama: "KADNAWI", jabatan: "Ketua RT 018", tglLahir: "06-12-1976", noSk: "023", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "081339714263" },
+{ no: 27, nama: "NONO", jabatan: "Ketua RT 019", tglLahir: "31-12-1959", noSk: "024", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "0895403035413" },
+{ no: 28, nama: "TADI", jabatan: "Ketua RT 020", tglLahir: "18-11-1979", noSk: "016", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "082310371718" },
+{ no: 29, nama: "TAPING", jabatan: "Ketua RT 021", tglLahir: "01-02-1973", noSk: "025", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087858112367" },
+{ no: 30, nama: "WARJO", jabatan: "Ketua RT 022", tglLahir: "06-12-1976", noSk: "017", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087878289658" },
+{ no: 31, nama: "DULANI", jabatan: "Ketua RT 023", tglLahir: "21-11-1985", noSk: "015", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "08224355146" },
+{ no: 32, nama: "CASWADI", jabatan: "Ketua RT 024", tglLahir: "19-05-1979", noSk: "018", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "0895428568880" },
+{ no: 33, nama: "SUKI", jabatan: "Ketua RT 025", tglLahir: "28-08-1974", noSk: "019", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087847474203" },
+{ no: 34, nama: "TARMIN", jabatan: "Ketua RT 026", tglLahir: "10-02-1983", noSk: "046", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "08978391418" },
+{ no: 35, nama: "WARNITA", jabatan: "Ketua RT 027", tglLahir: "23-06-1978", noSk: "020", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "082128824668" },
+{ no: 36, nama: "SANUSI", jabatan: "Ketua RT 028", tglLahir: "03-05-1967", noSk: "039", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087825250221" },
+{ no: 37, nama: "SARBINI", jabatan: "Ketua RT 029", tglLahir: "18-03-1960", noSk: "040", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "085134395331" },
+{ no: 38, nama: "SARNIJAH", jabatan: "Ketua RT 030", tglLahir: "20-08-1973", noSk: "032", tglSk: "24-02-2026", alamat: "Rambatan Wetan", hp: "087817133110" }
+];
 
         let currentUser = null;
         let filteredData = [...dataPenduduk];
